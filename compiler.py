@@ -92,6 +92,8 @@ while codeIndex < len(code):
     elif cmd == "c":
         stack = []
 
+    # lol new cmd whatever it is
+
 
     # yes
     codeIndex += 1
