@@ -92,7 +92,13 @@ while codeIndex < len(code):
     elif cmd == "c":
         stack = []
 
-    # lol new cmd whatever it is
+    # if only then jump
+    elif cmd == "j":
+        temp2 = stack.pop(0)
+        temp1 = stack.pop(0)
+
+        if temp2 != 0:
+            codeIndex = temp1 - 1
 
 
     # yes
